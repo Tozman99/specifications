@@ -1,0 +1,12 @@
+# Simple clock implementation : 
+Expl : A digital clock that change states (= increments by 1 if a condition is true ) 
+
+init state : 
+	Let's define HCini has the initial state of the clock 
+
+Next state : 
+	Let's define HCnxt has the next state of the clock 
+
+1) the formula assert that the initial state is HCini 
+2) its steps (HCnxt or the next state) satisfies HCnxt 
+
