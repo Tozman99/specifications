@@ -1,2 +1,3 @@
 # specifications
-some specifications TLA+ 
+
+Some random specifications with TLA+
