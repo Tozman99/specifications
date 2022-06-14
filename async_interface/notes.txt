@@ -1,0 +1,23 @@
+An Asynchronous interface 
+
+
+expl : an interface used for transmitting data between : 
+1) a sender 
+2) a receiver 
+
+==> Protocol : two handshake protocol 
+
+Sender : 
+	-> wait for ack for one item
+	-> once the ack packet is sent, the sender can send the next value
+
+Receiver : 
+	-> wait for a ready packet 
+	-> once the packet has been received : Send a ack packet 
+
+
+Packets sent : 
+1) val (The data sent )
+2) ready (SYNC packet = initialize the connection )
+3) ack (Acknowledge packet, the receiver acknoledge the connection with the sender )
+
